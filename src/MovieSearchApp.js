@@ -51,6 +51,7 @@ function MovieSearchApp() {
           onChange={(e) => setSearchQuery(e.target.value)}
           className="search-input"
         />
+        <button className="button" onClick={handleSearch}>Search</button>
       </form>
 
       {error && (
